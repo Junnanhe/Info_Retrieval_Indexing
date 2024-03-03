@@ -11,7 +11,7 @@ def list_files(directory):
     file_paths.sort(key=lambda x: int(os.path.splitext(os.path.basename(x))[0]))
     return file_paths
 
-input_dir = "HillaryEmails/HillaryEmails"
+input_dir = "DataSet/HillaryEmails"
 
 file_paths = list_files(input_dir)
 
